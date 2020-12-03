@@ -1,0 +1,84 @@
+@font-face{
+    font-family: "BasisGrotesquePro-Regular", sans-serif;
+    src: url(BasisGrotesquePro-Regular.ttf);
+}
+
+
+html, body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: BasisGrotesquePro-Regular, sans-serif;
+    font-size: 18px;
+    line-height: 26px;
+    background-color: #FFFFFF;
+    transition: background-color 1s ease;
+    color: #354147;
+    -webkit-font-smoothing: antialiased;
+}
+*{
+    box-sizing: border-box;
+}
+nav{
+   display: grid;
+   grid-template-columns: 2fr 1fr 2fr;
+   height: 60px;
+   background-color: #FFFFFF;
+   color: #354147;
+   padding-top: 40px;
+   padding-bottom: 70px;
+}
+.flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.shop:hover{
+    text-decoration-line: underline;   
+}
+.good-taste:hover{
+    text-decoration-line: underline;
+}
+.about:hover{
+    text-decoration-line: underline;
+}
+.pro:hover{
+    text-decoration-line: underline;
+}
+.order-samples:hover{
+    text-decoration-line: underline;
+}
+.logo{
+    display: flex;
+    fill: #354147;
+}
+aside{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-top: #354147 dashed;
+    border-bottom: #354147 dashed;
+    background: #fafafa;
+    padding: 10px;
+    width: 100%;
+    border-width: 1px;
+}
+.left-image, .center-image, .right-image{
+    height: ;
+}
+.left, .center, .right{
+    font-size: 16px;
+}
+
+main{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 4fr 4fr;
+}
+.decorate{
+    
+}
+figure{
+
+}
